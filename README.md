@@ -6,6 +6,8 @@ I Semestre 2026
 Implementación de la Carga Automática (Autoload) bajo el estándar PSR-4 con Composer en una aplicación PHP con interfaz web.
 
 ## Estructura de archivos
+
+```
 psr4-autoload/
 ├── composer.json
 ├── index.php
@@ -14,13 +16,14 @@ psr4-autoload/
 ├── css/
 │   └── estilos.css
 └── src/
-├── Models/
-│   ├── Producto.php       → namespace App\Models
-│   └── Cliente.php        → namespace App\Models
-├── Services/
-│   └── TiendaService.php  → namespace App\Services
-└── Controllers/
-└── TiendaController.php → namespace App\Controllers
+    ├── Models/
+    │   ├── Producto.php       → namespace App\Models
+    │   └── Cliente.php        → namespace App\Models
+    ├── Services/
+    │   └── TiendaService.php  → namespace App\Services
+    └── Controllers/
+        └── TiendaController.php → namespace App\Controllers
+```
 
 ## Instalación
 ```bash
