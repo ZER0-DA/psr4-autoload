@@ -1,0 +1,16 @@
+{
+    "name": "casti/psr4-autoload",
+    "description": "Laboratorio PSR-4",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anthony Castillo",
+            "email": "castilloanthony5215@gmail.com"
+        }
+    ],
+    "require": {}
+}
